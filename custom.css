@@ -8,3 +8,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Arvo", sans-serif;
 }
+
+/* align runestone lti links with the rest of assignment copy*/
+.tool_content_wrapper {
+  margin: 20px; 
+}
