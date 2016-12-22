@@ -1,15 +1,72 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Arvo');
+@font-face {
+    font-family: 'Nexa Black';
+    url('fonts/next-black-webfont.woff2') format('woff2'),
+    url('fonts/next-black-webfont.woff') format('woff'),
+    url('fonts/next-black-webfont.ttf') format('tff');
+}
 
-body {
-  font-family: "Montserrat", serif;
+@font-face {
+    font-family: 'Adagio';
+    font-weight: bold;
+    url('fonts/adagio_slab-bold-webfont.woff2') format('woff2'),
+    url('fonts/adagio_slab-bold-webfont.woff') format('woff'),
+    url('fonts/adagio_slab-bold-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Adagio';
+    font-weight: regular;
+    url('fonts/adagio_slab-regular-webfont.woff2') format('woff2'),
+    url('fonts/adagio_slab-regular-webfont.woff') format('woff'),
+    url('fonts/adagio_slab-regular-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Adagio';
+    font-weight: light;
+    url('fonts/adagio_slab-light-webfont.woff2') format('woff2'),
+    url('fonts/adagio_slab-light-webfont.woff') format('woff'),
+    url('fonts/adagio_slab-light-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Adagio';
+    font-weight: regular;
+    font-style: italic;
+    url('fonts/adagio_slab-regular_italic-webfont.woff2') format('woff2'),
+    url('fonts/adagio_slab-regular_italic-webfont.woff') format('woff'),
+    url('fonts/adagio_slab-regular_italic-webfont.ttf') format('ttf');
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Arvo", sans-serif;
+    color: rgb(68, 68,68);
 }
 
-/* align runestone lti links with the rest of assignment copy*/
-.tool_content_wrapper {
-  margin: 20px; 
+h1, h4 {
+    font-family: "Nexa Black", sans-serif;
+}
+
+h2 {
+    font-family: "Adagio", serif;
+    font-weight: light;
+}
+
+h3 {
+    font-family: "Adagio", serif;
+    font-weight: bold;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+h5, h6 {
+    font-family: "Nexa", sans-serif;
+}
+
+
+body {
+    color: rgb(52, 74, 95);
+    font-family: "Adagio", serif;
+    font-weight: regular;
 }

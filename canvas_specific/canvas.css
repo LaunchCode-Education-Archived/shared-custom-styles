@@ -1,0 +1,6 @@
+@import("https://d1ohr08zqdjwb8.cloudfront.net/custom-education-styles/custom.css")
+
+/* align runestone lti links with the rest of assignment copy*/
+.tool_content_wrapper {
+    margin: 20px;
+}
