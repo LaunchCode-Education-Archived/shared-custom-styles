@@ -6,6 +6,15 @@
 }
 
 @font-face {
+ font-family: "Nexa";
+ font-style: normal;
+ font-weight: 700;
+ src: url("fonts/nexa-heavy.woff2") format('woff2'),
+ url('fonts/nexa-heavy-webfont.woff') format('woff'),
+ url('fonts/nexa-heavy-webfont.ttf') format('tff');
+}
+
+@font-face {
     font-family: 'Adagio';
     font-weight: bold;
     src: url('fonts/adagio_slab-bold-webfont.woff2') format('woff2'),

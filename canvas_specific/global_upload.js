@@ -7,7 +7,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 $(document).ready(function(){
   ga('create', 'UA-78748330-2', 'auto');
   var sTemp = window.location.pathname.match(/\/courses\/(\d+)/);
-  var courseId = sTemp[1];
+  var courseId = sTemp ? sTemp[1] : null;
   if (courseId) { // Only send the course id when we are on a course page
     ga('set', 'dimension1', courseId);
   }
