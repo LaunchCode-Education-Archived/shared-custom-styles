@@ -1,3 +1,11 @@
+body {
+    font-size: 17px;
+}
+
+p {
+    margin: 1em 0 1em 0;
+}
+
 @font-face {
     font-family: 'Nexa Black';
     src: url('fonts/nexa-black-webfont.woff2') format('woff2'),
@@ -49,6 +57,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     color: rgb(68, 68,68);
+    margin-top: 1.5em;
 }
 
 h1, h4 {
@@ -57,7 +66,7 @@ h1, h4 {
 
 h2 {
     font-family: "Adagio", serif;
-    font-weight: light;
+    /*font-weight: light;*/
 }
 
 h3 {
