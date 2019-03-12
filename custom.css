@@ -53,26 +53,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: "Nexa Black", sans-serif;
+    font-family: "Nexa", sans-serif;
     font-size: 2.5em;
     margin-top: inherit;
 }
 
 h2 {
-    font-family: "Adagio", serif;
+    font-family: "Nexa", serif;
     font-size: 2em;
 }
 
 h3 {
-    font-family: "Adagio", serif;
+    font-family: "Nexa", serif;
     font-size: 1.5em;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #5c93ce
 }
 
 h4 {
+    font-family: "Nexa", serif;
     font-size: 1.2em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 h5 {
