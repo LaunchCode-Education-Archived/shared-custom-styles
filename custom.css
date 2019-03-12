@@ -47,43 +47,33 @@
     url('fonts/adagio_slab-regular_italic-webfont.ttf') format('ttf');
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: rgb(68, 68,68);
+h2, h3, h4, h5, h6 {
+    color: #354A5F;
     margin-top: 1.5em;
+    font-family: "Nexa", serif;
 }
 
 h1 {
+    color: #3C79b8;
     font-family: "Nexa", sans-serif;
-    font-size: 2.5em;
+    font-size: 2.65em;
     margin-top: inherit;
 }
 
 h2 {
-    font-family: "Nexa", serif;
     font-size: 2em;
 }
 
 h3 {
-    font-family: "Nexa", serif;
     font-size: 1.5em;
-    /* font-weight: bold; */
-    color: #5c93ce
 }
 
 h4 {
-    font-family: "Nexa", serif;
     font-size: 1.2em;
-    /* text-transform: uppercase; */
 }
 
 h5 {
-    font-family: "Nexa", sans-serif;
     font-size: 1.1em;
-    color: #547899;
-}
-
-h6 {
-    font-family: "Nexa", sans-serif;
 }
 
 p {
@@ -92,7 +82,7 @@ p {
 
 body {
     color: rgb(52, 74, 95);
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Adagio", serif;
     font-weight: normal;
     line-height: 1.9em;
