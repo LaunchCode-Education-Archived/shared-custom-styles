@@ -1,17 +1,29 @@
 @font-face {
-    font-family: 'Nexa Black';
-    src: url('fonts/nexa-black-webfont.woff2') format('woff2'),
-    url('fonts/nexa-black-webfont.woff') format('woff'),
-    url('fonts/nexa-black-webfont.ttf') format('tff');
+    font-family: 'Nexa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/NexaRegular.otf') format('opentype');
 }
 
 @font-face {
- font-family: "Nexa";
- font-style: normal;
- font-weight: 700;
- src: url("fonts/nexa-heavy.woff2") format('woff2'),
- url('fonts/nexa-heavy-webfont.woff') format('woff'),
- url('fonts/nexa-heavy-webfont.ttf') format('tff');
+    font-family: 'Nexa';
+    font-style: italic;
+    font-weight: 400;
+    src: url('fonts/Nexa-Regular-Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nexa';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/Nexa-XBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nexa';
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/Nexa-XBold-Italic.otf') format('opentype');
 }
 
 @font-face {
